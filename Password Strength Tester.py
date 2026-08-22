@@ -1,11 +1,11 @@
 import random
-
+upperletters = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 letters = list("abcdefghijklmnopqrstuvwxyz")
 numbers = list("0123456789")
 symbols = list("!@#$%^&*()_+-=[]{}|;:,.<>?")
 
 def generate_strong_password():
-    characters = letters + numbers + symbols
+    characters = letters + numbers + symbols + upperletters
     password = ""
     for _ in range(12):  # Generate 12 character strong password
         password += random.choice(characters)
@@ -38,3 +38,4 @@ elif strength <= 4:
     print("Here's a stronger password for you:", generate_strong_password())
 else:
     print("You have a strong password")
+
