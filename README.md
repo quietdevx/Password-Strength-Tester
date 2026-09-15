@@ -1,4 +1,4 @@
- #**Password Strength Tester**
+ **Password Strength Tester**
 
 This is a Python project I made while learning Python.
 
