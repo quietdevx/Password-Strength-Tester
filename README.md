@@ -1,4 +1,4 @@
- **Password Strength Tester**
+#**Password Strength Tester**
 
 This is a Python project I made while learning Python.
 
@@ -17,7 +17,7 @@ This program uses a checklist to add points to your password strength score. The
 
  **How to run**
 
-Download the files and run the Python file.
+Copy the code into an ide and run it there.
 
 **Made with**
 
